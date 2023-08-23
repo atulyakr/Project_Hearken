@@ -46,14 +46,16 @@ body {
     line-height: 30px;
   }
  
-  .botText {
+  #botText {
     color: rgb(250, 243, 243);
     font-family: 'Comic Neue', cursive;
     font-size: 17px;
     text-align: left;
     line-height: 30px;
+    display: flex;
+    flex-direction:row;
   }
-  .botText span {
+  #botText span {
     background-image: linear-gradient(to  right , rgba(20, 137, 227, 0.914), rgb(209, 13, 239));
     padding: 10px;
     border-radius: 15px;
