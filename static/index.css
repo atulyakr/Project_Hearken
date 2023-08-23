@@ -1,0 +1,105 @@
+body {
+    font-family: Zen Dots;
+    background-image:linear-gradient(to  right, rgb(217, 43, 244),rgb(47, 29, 246));
+    font-size: 12px;
+  }
+  h1 {
+    background-image:linear-gradient(to  bottom , rgba(188, 7, 249, 0.914), rgb(18, 124, 189));
+    color: rgb(226, 238, 241);
+    display: inline-block;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+  }
+  #userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+    border-radius: 8px;
+    display: flex;
+
+  }
+  #textInput {
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-bottom: 3px solid rgb(166, 21, 244);
+    border-radius: 10px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 17px;
+    background-image:linear-gradient(to  left , rgba(5, 23, 229, 0.914), rgb(34, 153, 227),rgb(223, 31, 226));
+    color: white;
+  }
+  #userText {
+    color: rgb(245, 245, 245);
+    font-family: 'Comic Neue', cursive;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+  }
+ 
+  .botText {
+    color: rgb(250, 243, 243);
+    font-family: 'Comic Neue', cursive;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .botText span {
+    background-image: linear-gradient(to  right , rgba(20, 137, 227, 0.914), rgb(209, 13, 239));
+    padding: 10px;
+    border-radius: 15px;
+    align-items: left;
+  }
+  #tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
+  .boxed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 60px;
+    border:   solid rgb(98, 203, 238);
+    border-width: 1.5px 10px;
+    border-radius:15px
+  }
+  
+  #send_btn{
+    margin-left: 8px;
+    margin-top: 4px;
+    font-family: 'Comic Neue', cursive;
+    width: 43px;
+    height: 27px;
+    border-radius: 5px;
+    background-image: linear-gradient(to  left , rgba(16, 164, 243, 0.999), rgb(13, 115, 239));
+    -webkit-text-fill-color: white;
+    font-weight: 300;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+  }
+
+li{
+  list-style: none;
+  background-image:linear-gradient(to  right , rgba(217, 27, 238, 0.914), rgb(93, 12, 243));
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  
+}
+
+#userlist{
+  display: flex;
+  flex-direction: row-reverse;
+}
