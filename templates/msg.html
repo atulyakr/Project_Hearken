@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
 
   </head>
+  
   <body>
     <center>
       <h1>
@@ -39,6 +40,8 @@
       <script type="text/javascript">
         let user_msg=document.getElementById('textInput');
         let btn=document.getElementById('send_btn')
+
+        let botText=document.getElementById('botText')
         
         let usermsg_span=document.getElementById('userlist');
 
@@ -47,13 +50,44 @@
         let list1=document.createElement('li');
         
 
-        let span=document.createElement('span');
+        let span1=document.createElement('span');
         
         let textInput=document.getElementById("textInput");
 
         let bot_txt=document.getElementById("bot_res");
         
         
+
+        if ({{emotion_num}}==0)
+        {
+           "****alert the family or friend using twilio****"
+          span1.textContent="you seem angry. I know the whole world sucks sometimes,but we gotta keep our cool and move on.";
+          botText.appendChild(span1);
+          console.log({{emotion_num}});
+        }
+        
+        if ({{emotion_num}}==2)
+        {
+          "****alert the authorities using twilio****"
+
+          span1.textContent="I have texted the authorities and your family memebers, until they reach out to you just keep calm and keep it low";
+          botText.appendChild(span1);
+          console.log({{emotion_num}});
+        }
+        if ({{emotion_num}}==6)
+        {
+          "****alert the family or friend using twilio****"
+
+          span1.textContent="We all have our lows and highs. These times test us and we need to keep our hearts strong and face it with all of our might.Just believe and everything's gonna be fine";
+          botText.appendChild(span1);
+          console.log({{emotion_num}});
+        }
+        if ({{emotion_num}}==7 || {{emotion_num}}==7 )
+        {
+          span1.textContent="There are times when we regret the choices we make, but even then we have our options, whether to keep on thinking about the mistakes or take a choice to somehow mend it. The choices we make at this point makes all the difference my friend :";
+          botText.appendChild(span1);
+          console.log({{emotion_num}});
+        }
         function dis()
         {
             list1.textContent=user_msg.value;
