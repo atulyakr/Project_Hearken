@@ -3,6 +3,9 @@
 !pip install torch==2.0.0
 !pip install einops==0.6.1
 !pip install flask
+!pip install pytelegrambotapi
+!pip install python-dotenv
+!pip install requests
 
 from flask import Flask,redirect,url_for,render_template,request
 from chat import get_response
