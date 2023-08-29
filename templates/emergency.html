@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <title>ChatBot</title>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+
+  </head>
+  
+  <body>
+    <center>
+      <h1>
+        WELCOME TO HEARKEN
+      </h1>
+    </center>
+    <div class="box"></div>
+    <div class="boxed">
+          <div id="chatbox">
+            <p id="botText">
+              <span id="bot_res">I have informed the authorities and that friend of yours about the situation</span>
+              <span id="bot_res">until they reach out to you just keep calm and stay low!</span>
+            </p>
+            <div id="userText">
+              <ul id="userlist">
+              </ul>
+          </div>
+
+        <form name ="userText" id="userInput" action="/" method="POST">
+          <input name="msg"  id="textInput" type="text">
+          <input type="submit" id="send_btn" onclick="dis()" value="send">
+        </form>
+        
+      </div>
+      <script type="text/javascript">
+        let user_msg=document.getElementById('textInput');
+        let btn=document.getElementById('send_btn')
+
+        let botText=document.getElementById('botText')
+        
+        let usermsg_span=document.getElementById('userlist');
+
+        let elm=document.getElementById('userText');
+
+        let list1=document.createElement('li');
+        
+
+        let span1=document.createElement('span');
+        
+        let textInput=document.getElementById("textInput");
+
+        let bot_txt=document.getElementById("bot_res");
+      
+        function dis()
+        {
+            list1.textContent=user_msg.value;
+            usermsg_span.appendChild(list1);
+           
+        }
+      </script>
+    </div>
+  </body>
+</html>
