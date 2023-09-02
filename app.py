@@ -69,7 +69,7 @@ def index():
           emergency_msg=f'your friend {user_name} seems to be in trouble. Please reach out to him -- hearky'
           
           account_sid = 'ACfb7b5de7cd4934430469c62b5ebf98cc'
-          auth_token = 'e67df05c397e2851b7c06c5e4c7e0ec2'
+          auth_token = '0ab555960848ad132a12ff245c0560a1'
           client = Client(account_sid, auth_token)
           message = client.messages.create(
             from_='+16184378302',
@@ -89,4 +89,4 @@ def index():
        
 
 if __name__=="__main__":
-  app.run(debug=False,host='0.0.0.0')
+  app.run()
