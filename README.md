@@ -23,6 +23,6 @@ Hearken is a versatile chatbot designed to provide seamless assistance to users.
  ![telegram ss](telebotss.jpg) 
 
 - **SMS Alerts**: In critical situations, Hearken can send SMS alerts to local authorities, ensuring swift and appropriate responses.
-![sms ss](twilioss.jpg)
+ ![sms ss](twilioss.jpg)
 
 **Hearken** is your intelligent assistant, ready to respond to your needs and emotions, making interactions more meaningful and responsive.
