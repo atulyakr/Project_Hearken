@@ -7,5 +7,5 @@ pytelegrambotapi
 python-dotenv
 requests
 twilio
-gunicorn
+
 
