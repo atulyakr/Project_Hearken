@@ -1,18 +1,21 @@
-# Hearken 
-![Hearken Logo](hearken_logo-fotor-2023082923219.png) <!-- Add an image/logo of your chatbot here -->
+# 🔰Hearken 
+<img src="hearken_logo-fotor-2023082923219.png" width="200px">
 
-Hearken is an advanced conversational AI designed to provide personalized responses and take appropriate actions based on the user's emotions. Whether you're using it as a Telegram bot or for SMS alerts, Hearken is here to enhance your communication experience.
---It uses a pre-trained model of Falcon 7b trained by LAION AI (The API is imported from hugging face)
+<h3>🏹Hearken is an advanced conversational AI designed to provide personalized responses and take appropriate actions based on the user's emotions. Whether you're using it as a Telegram bot or for SMS alerts, Hearken is here to enhance your communication experience.</h3>
 
-## Demo
-[Watch the Demo](https://youtu.be/g6LWvyU6xjc)
+⏩It uses a pre-trained Falcon 7b🦅 model trained by LAION AI (The API is imported from hugging face)
 
 
-## About the Project
+<h2>⚡Demo</h2>
+<img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/YouTube.png" emoji-code="YouTube" alt="YouTube" width="25px"/> [Watch the Demo](https://youtu.be/g6LWvyU6xjc)
+
+
+
+<h2>➽ About the Project</h2>
 
 Hearken is a versatile chatbot designed to provide seamless assistance to users. Whether you prefer to interact with it through a web interface or Telegram bot, Hearken is here to enhance your communication experience.
 
-### Key Features
+### 🏹Key Features
 
 - **Emotion Detection**: Hearken utilizes advanced natural language processing to detect and understand human emotions in real-time conversations.
   ![hearken ss](hearkyss5.jpg)
@@ -20,11 +23,11 @@ Hearken is a versatile chatbot designed to provide seamless assistance to users.
 - **Action-Oriented**: Not just a chatbot, Hearken takes necessary actions based on detected emotions, ensuring user safety and well-being.
 
 - **Telegram Integration**: Interact with Hearken seamlessly on Telegram, making it accessible wherever you are.
- ![telegram ss](telebotss.jpg) 
+ <img src="telebotss.jpg" width="480px"/> 
 
 - **SMS Alerts**: In critical situations, Hearken can send SMS alerts to local authorities, ensuring swift and appropriate responses.
- ![sms ss](twilioss.jpg)
+<img src="twilioss.jpg" width="280px"/>
 
 
 
-**Hearken is your intelligent assistant, ready to respond to your needs and emotions, making interactions more meaningful and responsive.**
+<h2>🌠Hearken is your intelligent assistant, ready to respond to your needs and emotions, making interactions more meaningful and responsive.🌠</h2>
