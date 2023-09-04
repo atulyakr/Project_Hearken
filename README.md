@@ -1,5 +1,5 @@
 # 🔰Hearken 
-<img src="hearken_logo-fotor-2023082923219.png" width="200px">
+<img src="hearken_logo-fotor-2023082923219.png" width="260px">
 
 <h3>🏹Hearken is an advanced conversational AI designed to provide personalized responses and take appropriate actions based on the user's emotions. Whether you're using it as a Telegram bot or for SMS alerts, Hearken is here to enhance your communication experience.</h3>
 
