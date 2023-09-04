@@ -7,8 +7,7 @@
 
 
 <h2>⚡Demo</h2>
-<img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/YouTube.png" emoji-code="YouTube" alt="YouTube" width="25px"/> [Watch the Demo](https://youtu.be/g6LWvyU6xjc)
-
+<a href="https://youtu.be/g6LWvyU6xjc"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/YouTube.png" emoji-code="YouTube" alt="YouTube" width="25px"/>  WATCH THE DEMO VIDEO </a>
 
 
 <h2>➽ About the Project</h2>
